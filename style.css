@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    align-items: center;
+    padding-left: 12%;
+    gap: 70px;
+
+}
+.navbar img {
+    width: 260px;
+}
+.navbar a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    background-image: url(image/wallpaper.png);
+    background-color: aqua;
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.texto {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.texto h1{
+    font-size: 5em;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.texto h1 p{
+  
+    padding: 8px;
+    background-color: #a87efc;
+    border-radius: 30px;
+}
+.texto h2{
+   
+    font-size: 4em;
+    text-decoration: underline #8C52FF;
+}
+.galery {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;  
+}
+.galery .fotos {
+    width: 3178.5px;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img {
+    width: 450px;
+    margin-right: -3.8px;
+}
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    35% { margin-left: -100%; }
+    40% { margin-left: -200%; }
+    50% { margin-left: -200%; }
+    55% { margin-left: -300%; }
+    65% { margin-left: -300%; }
+    70% { margin-left: -400%; }
+    80% { margin-left: -400%; }
+    85% { margin-left: -500%; }
+    95% { margin-left: -500%; }
+    100% { margin-left: 0; }
+    
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.blocoimg{
+    width: 40%;
+}
+.blocoimg img{
+width: 500px;
+}
+.blocotexto{
+    width: 40%;
+font-size: 20px;
+    color: black;
+}
+.blocotexto hr{
+    width: 400px;
+    height: 4px;
+    background-color: #8C52FF;
+    margin-bottom: 3%;
+}
+.hr2{
+    
+}
+.serviços{
+    background-color: #8C52FF;
+}
