@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animação.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
     <title>Document</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <img src="image/logo.png" alt="logo">
+        <a href="">
+            <img src="image/logo.png" alt="logo">
+        </a>
         <div>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
-            <a class="navbutton" href="">teste</a>
+            <a class="navbutton" href="#sobre">Sobre nós</a>
+            <a class="navbutton" href="#serviços">Serviços</a>
+            <a class="navbutton" href="#depoimentos">Depoimentos</a>
+            <a class="navbutton" href="#contato">Contato</a>
+            <a class="navbutton" href="">Nossos produtos</a>
         </div>
     </nav>
     <section class="principal">
@@ -26,6 +31,7 @@
             <h1>Tudo para seu <p>PET</p>
             </h1>
             <h2> em um só lugar</h2>
+            <a id="sobre" href="#contato">Entre em contato</a>
         </div>
         <div class="galery">
             <div class="fotos">
@@ -38,38 +44,204 @@
             </div>
         </div>
     </section>
-
-    <div class="conteudo">
-        <div class="blocoimg">
-            <img src="image/1.png" alt="">
+    <section class="conteud-principal">
+        <div class="conteudo">
+            <div class="blocoimg">
+                <img src="image/1.png" alt="">
+            </div>
+            <div class="blocotexto" style="text-align: left;">
+                <h1>Seu pet aproveita <br> os melhores serviços</h1>
+                <hr>
+                <p> Nesse PetShop você encontra profissionais treinados para oferecer os melhores serviços e ainda
+                    encontra
+                    os melhores produtos para cuidar do seu Pet.</p>
+            </div>
         </div>
-        <div class="blocotexto" style="text-align: left;">
-            <h1>Seu pet aproveita <br> os melhores serviços</h1>
-            <hr>
-            <p> kkdihfbskifv fjhskfhnsd fhsikfhvdsv gfg fg dj dgsigf fgeuf <br>
-                dfgws fpfh ghffsjfb hwsfg fhsgfs dg dg
-                fsih
-                fishgif f</p>
+        <div class="conteudo">
+            <div class="blocotexto" style="text-align: right;">
+                <h1>Com cuidado e atenção <br> nos mínimos detalhes</h1>
+                <hr class="hr2">
+                <p id="serviços"> Só você sabe a importância de achar um lugar que realmente cuide do seu pet. Aqui na
+                    Pethome, você encontra tudo que seu bichinho precisa para ter mais alegria e qualidade de vida.</p>
+            </div>
+            <div class="blocoimg">
+                <img src="image/4.png" alt="">
+            </div>
         </div>
-    </div>
-    <div class="conteudo">
-        <div class="blocotexto" style="text-align: right;">
-            <h1>Com o cuidado e atenção <br> nos mínimos detalhes</h1>
-            <hr class="hr2">
-            <p> kkdihfbskifv fjhskfhnsd fhsikfhvdsv gfg fg dj dgsigf fgeuf dfgws fpfh ghffsjfb hwsfg fhsgfs dg dg fsih
-                fishgif f</p>
-        </div>
-        <div class="blocoimg">
-            <img src="image/4.png" alt="">
-        </div>
-    </div>
-
-    <section class="serviços">
-<div>
-    <h1>Nossos serviços</h1>
-    <img src="image/7.png" alt="img">
-</div>
     </section>
+    <section class="serviços">
+        <div class="section">
+            <div class="titulo">
+                <h1>Serviços que nosso PetShop possui:</h1>
+            </div>
+            <div class="caixas">
+                <div class="topico">
+                    <img src="image/15.png" alt="">
+                    <h1>Pet Parque</h1>
+                    <br>
+                    <p>Áreas cheias de brincadeiras para seu bichinho gastar muita energia e se divertir.</p>
+
+
+                </div>
+                <div class="topico">
+                    <img src="image/14.png" alt="">
+                    <h1>Pet Estética</h1>
+                    <br>
+                    <p>Banho e tosa para deixar os seus pets nos trinques, pronto para aquela seção de fotos com seu
+                        dono.
+                    </p>
+
+                </div>
+                <div class="topico">
+                    <img src="image/16.png" alt="">
+                    <h1>Pet Hospital</h1>
+                    <br>
+                    <p id="depoimentos">Consultas, emergência, internação e exames laboratoriais de imagem, além de todo
+                        um atendimento
+                        personalizado para cuidar do seu pet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="carrossel">
+        <div class="texto-depoimento">
+            <h1>Depoimentos dos nossos clientes</h1>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="image/18.png" alt="Foto 01">
+                        <div class="depoimentos">
+                            <h1>Juca</h1>
+                            <p> "Eu adoro um carinho, os da minhas donas são otimos, mas quando eu fico sabendo que
+                                vou ser adorado no PetShop meu rabinho abana sem parar"</p>
+                                <p> ★ ★ ★ ★ ★</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="image/19.png" alt="Foto 02">
+                        <div class="depoimentos">
+                            <h1>Mila</h1>
+                            <p> "Para vocês humanos entenderem, a minha sensação de ir para o PetShop é a mesma que
+                                vocês
+                                tem ao ir ao cabeleleiro, Spa, parque, etc, a diferença é que eu tenho tudo no mesmo
+                                lugar"</p>
+                                <p> ★ ★ ★ ★ ★</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="image/17.png" alt="Foto 03">
+                        <div class="depoimentos">
+                            <h1>Eduardo </h1>
+                            <h3>Também conhecido como dudu</h3>
+                            <p>"Eu não gosto de banho, nem de foto, nem de toque humano, mas admito que o PetShop tem uma
+                                pegada bacana, é lá q eu encontro umas gatinhas"</p>
+                                <p>  ★ ★ ★ ★ ✰</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+    <section class="diversidade">
+        <div class="diversidade-box">
+            <div class="titulo1">
+                <h1>Aqui não é zoologico</h1>
+                <p> Mas todo tipo de bicho é sempre bem-vindo!</p>
+            </div>
+            <div class="imagensdiversas">
+                <img src="image/22.png" alt="img">
+                <img src="image/11.png" alt="img">
+                <img src="image/24.png" alt="img">
+                <img src="image/25.png" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="titulorede">
+            <h1>Entre em contato</h1>
+            <hr>
+        </div>
+        <div class="box">
+            <div class="redesocial">
+                <div class="image-redesocial">
+                    <img src="image/rds.png" alt="">
+                    <img src="image/rds1.png" alt="">
+                    <img src="image/rds2.png" alt="">
+                    <img src="image/rds3.png" alt="">
+                </div>
+                <div class="numero-contato">
+                    <h2>Telefone</h2>
+                    <p>bfuedf dhgsb pa paa e naop</p>
+                    <br>
+                    <h2>WhatsApp Delivery</h2>
+                    <p>bfuedf dhgsb pa paa e naop</p>
+                    <br>
+                    <h2>Funcionamento</h2>
+                    <p>Segunda a Sábado - 08h às 20h</p>
+                    <p>Domingos e feriados - 09h às 18h</p>
+                </div>
+            </div>
+            <div class="contate-nos">
+                <div>
+                    <h1>contate-nos</h1>
+
+                </div>
+                <div class="preencher">
+                    <div class="dados">
+                        <label class="nome" for="text">nome</label>
+                        <input class="nome" for="text">
+
+                    </div>
+                    <div class="dados">
+                        <label class="telefone" for="text">telefone</label>
+                        <input class="telefone" type="text">
+                    </div>
+                    <div class="dados">
+                        <label class="email" for="text">email</label>
+                        <input class="email" type="text">
+
+                    </div>
+                    <div class="dados">
+                        <label class="msg" for="text">insira uma mensagem</label>
+                        <input class="msg" type="text">
+                    </div>
+
+                </div>
+                <input class="butao" type="button" value="enviar">
+            </div>
+        </div>
+    </section>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252795.5521364163!2d-35.07745048623681!3d-8.10855924330936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f097021d107%3A0xc06d0a7ad7e28966!2sPetHome%20Boa%20Viagem!5e0!3m2!1sen!2sbr!4v1699032966450!5m2!1sen!2sbr"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <img src="image/logo.png" alt="img">
+        <h3>Site desenvolvido por <br>Jéssica Neves</h3>
+        <h4>para ver mais dos meus projetos acesse meu github:</h4>
+        <a href="https://github.com/jessicamdsn">https://github.com/jessicamdsn</a>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

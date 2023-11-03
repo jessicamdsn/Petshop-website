@@ -1,0 +1,27 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes entrada {
+    from {
+        transform: translatey(-500px);
+    }
+    to {
+        transform: translatey(0px);
+    }
+}
+@keyframes animacao {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+    25% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+    40% {margin-left: -200%;}
+    50% { margin-left: -200%;}
+    55% {margin-left: -300%;}
+    65% {margin-left: -300%;}
+    70% {margin-left: -400%;}
+    80% { margin-left: -400%;}
+    85% { margin-left: -500%;}
+    95% {margin-left: -500%;}
+    100% { margin-left: 0;}
+}

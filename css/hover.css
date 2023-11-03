@@ -1,0 +1,31 @@
+.blocoimg :hover{
+    transform: scale(1.1);
+}
+.galery:hover{
+    transform: scale(1.1);
+}
+.navbar a:hover{
+    color: #a359df;
+}
+
+.texto a:hover {
+    color: #a359df;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #a359df;
+     transform: scale(1.1);
+ }
+ .serviços .caixas :hover {
+    transform: scale(1.1);
+}
+.diversidade .imagensdiversas img:hover{
+    transform: scale(1.1);
+}
+.butao:hover{
+    color: #a359df;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #a359df;
+     transform: scale(1.1);
+}
+footer a:hover{
+    color: #a359df;
+}

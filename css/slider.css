@@ -1,0 +1,44 @@
+main {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+  }
+  .project-img img {
+    box-shadow: 0 1px 2px #0003;
+    height: 280px;
+    border-radius: 30px;
+  }
+  .project-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  .depoimentos{
+    text-align: left;
+    font-size: 20px;
+    width: 400px;
+  }
+  .texto-depoimento{
+    font-size: 25px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+  
+  .swiper {
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

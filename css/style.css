@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 70px;
+    border-bottom:5px solid #262A4F;
+
+}
+
+.navbar img {
+    width: 260px;
+}
+
+.navbar a {
+    color: #262A4F;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../image/wallpaper2.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+/* margin-bottom: -100px; */
+}
+
+.texto {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    animation: entrada 2s;
+}
+
+.texto a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #262A4F;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.411);
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 80px;
+    transition: transform 0.3s ease;
+}
+
+.texto h1 {
+    font-size: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.texto h1 p {
+
+    padding: 8px;
+    background-color: #a87efc;
+    border-radius: 20px;
+}
+
+.texto h2 {
+
+    font-size: 60px;
+    text-decoration: underline #CB6CE6;
+}
+
+
+.galery {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    animation: fadein 2s;
+    transition: transform 0.3s ease;
+}
+
+.galery .fotos {
+    width: 3178.5px;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 450px;
+    margin-right: -3.8px;
+}
+.conteud-principal{
+    background-image: url('../image/wallpaper2.png');
+}
+.conteudo {
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.blocoimg img {
+    width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.blocotexto {
+    width: 400px;
+    font-size: 20px;
+    color: black;
+}
+
+.blocotexto hr {
+    width: 100%;
+    height: 4px;
+    background-color: #8C52FF;
+    margin-bottom: 3%;
+}
+
+
+.serviços {
+    width: 100%; 
+    position: relative;
+    background: #1b2044; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.serviços::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/wallpaper3.png'); 
+    z-index: -1;
+}
+.serviços .section{
+    color: rgb(10, 10, 10);
+    justify-content: center;
+    text-align: center;
+    padding: 45px;
+}
+.serviços .titulo{
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.589) 0.1em 0.1em 0.2em;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+.serviços .caixas{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.serviços .caixas .topico{
+    background-color: aliceblue;
+    width: 25%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.404);
+    
+}
+.serviços .caixas .topico h1{
+   font-size: 35px;
+   text-decoration: underline #8C52FF;
+}
+
+.serviços .caixas .topico img{
+    width: 150px;
+    
+}
+.diversidade{
+    width: 100%; 
+    position: relative;
+    background: #1b2044; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    color: aliceblue;
+}
+.diversidade::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/wallpaper3.png'); 
+    z-index: -1;
+}
+.diversidade-box{
+    padding: 30px;
+}
+.diversidade .imagensdiversas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.diversidade .imagensdiversas img{
+    width: 300px;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    /* border: 5px solid #CB6CE6; */
+}
+.diversidade .titulo1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contato{
+    padding:90px;
+    font-size: 27px;
+}
+.contato .titulorede h1{
+    font-size: 2em;
+    text-align: center;
+    color: #8C52FF;
+}
+.contato .titulorede hr{
+    width: 130px;
+    height: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #8C52FF;
+    text-align: center;
+    
+}
+.contato .box{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 100px;
+color: #8C52FF;
+margin-bottom: 40px;
+}
+.contato .box .contate-nos{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.contato .box .contate-nos .preencher{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.contato .box .contate-nos .preencher .dados{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    line-height: 60px;
+}
+
+.dados input{
+    border: 0 none;
+    outline: 0;
+    border-bottom: 3px solid #CB6CE6;
+    font-size: 22px;
+}
+.butao{
+    border: 0 none;
+    outline: 0;
+    color: rgb(255, 255, 255);
+    background-color: #8C52FF;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.411);
+    width: 150px;
+    text-align: center;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 18px;
+    transition: transform 0.3s ease;
+}
+.nome , .telefone{
+    width: 200px;
+}
+.msg , .email{
+    width: 420px;
+}
+.image-redesocial{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+.image-redesocial img{
+    width: 70px;
+}
+.numero-contato{
+    margin-top: 25px;
+    font-size: 18px;
+    color: #8C52FF;
+}
+footer{
+    color: aliceblue;
+    background-color: #21254b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: -4px;
+}
+footer img{
+  width: 200px;
+}
+footer a{
+    color: aliceblue;
+}
